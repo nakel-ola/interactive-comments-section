@@ -25,8 +25,8 @@ Desktop Preview
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/rest-countries-api-with-color-theme-switcher-QRkf_eWLfp)
-- Live Site URL: [Live Site at Netlify](https://rest-countries-api-pi-beryl.vercel.app/)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/interactive-comments-section-KIr1vBA8d5)
+- Live Site URL: [Live Site at Netlify](https://interactive-comments-section-ola.netlify.app/)
 ## My process
 
 ### Built with
