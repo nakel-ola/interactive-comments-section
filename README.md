@@ -30,3 +30,26 @@ Desktop Preview
 ## My process
 
 ### Built with
+
+- React Js
+- vitejs 
+- tailwind-css
+- Flexbox
+- Responsive Design
+- TypeScript
+- Media queries
+
+### What I learned
+
+To build app faster
+
+### Useful resources
+
+
+
+
+## Author
+
+- Github - [olamilekan21](https://github.com/olamilekan21/)
+- Frontend Mentor - [@olamilekan21](https://www.frontendmentor.io/profile/olamilekan21)
+
