@@ -11,7 +11,7 @@ function App() {
 
   const [input, setInput] = useState("");
 
-  const { comments, setComments, generateId,openDelete } = useStore();
+  const { comments, setComments, generateId, openDelete } = useStore();
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
@@ -32,19 +32,21 @@ function App() {
   };
 
   return (
-    <div className="bg-neutral-very-light-gray min-h-screen flex items-center flex-col py-10">
-      {comments.map((comment: Comment, index: number) => (
-        <CommentCard key={index} {...comment} />
-      ))}
-      <div className="w-[90%] md:w-[60%] min-h-[120px] bg-neutral-white my-2 shadow-sm rounded-lg">
-        <InputCard
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onSubmit={handleSubmit}
-        />
-      </div>
+    <div className="bg-neutral-very-light-gray min-h-screen flex items-center flex-col py-10 overflow-scroll">
+      <main className=" bg-neutral-very-light-gray min-h-screen flex items-center flex-col py-10">
+        {comments.map((comment: Comment, index: number) => (
+          <CommentCard key={index} {...comment} />
+        ))}
+        <div className="w-[90%] md:w-[60%] min-h-[120px] bg-neutral-white my-2 shadow-sm rounded-lg">
+          <InputCard
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            onSubmit={handleSubmit}
+          />
+        </div>
 
-      {openDelete && <DeleteCard />}
+        {openDelete && <DeleteCard />}
+      </main>
     </div>
   );
 }
