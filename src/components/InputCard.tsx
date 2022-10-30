@@ -26,8 +26,8 @@ const InputCard = (props: Props) => {
 
       <div className="w-full flex-1 mx-2">
         <textarea
-          name=""
-          id=""
+          name="comment"
+          id="comment"
           rows={3}
           value={value}
           onChange={onChange}

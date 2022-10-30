@@ -12,8 +12,8 @@ const UpdateCard = (props: Props) => {
     <form onSubmit={onSubmit} className="w-full">
       <div className="flex-1 mx-2">
         <textarea
-          name=""
-          id=""
+          name="update"
+          id="update"
           rows={3}
           value={value}
           onChange={onChange}
